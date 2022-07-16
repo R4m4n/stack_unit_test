@@ -1,8 +1,12 @@
 import logging, sys
 
-
-
 class Logger():
+    """
+    Custom Logger class logs messages passed to it in the terminal.
+    Has two functions according to requirement:
+    info(message)
+    error(message)
+    """
     logger = logging.getLogger()
     logger.level = logging.NOTSET
     stream_handler = logging.StreamHandler(sys.stdout)

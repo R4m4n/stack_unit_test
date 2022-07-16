@@ -25,4 +25,4 @@ class StackPopTest(unittest.TestCase):
         self.stack_function = StackPopFunctions(self.stack_list)
         
     def test_pop_from_stack(self):
-        Logger.info(f'\npop() =>>> {self.stack_function.pop()}')
+        Logger.info(f'\n TestCase pop() \n Output =>>> {self.stack_function.pop()}')

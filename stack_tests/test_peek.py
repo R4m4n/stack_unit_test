@@ -25,4 +25,5 @@ class StackPeekTest(unittest.TestCase):
         self.stack_function = StackPeekFunctions(self.stack_list)
         
     def test_peek_from_stack(self):
-        Logger.info(f'\npeek() =>>> {self.stack_function.peek()}')
+        Logger.info(f'')
+        Logger.info(f'\n TestCase peek() \n Output =>>> {self.stack_function.peek()}')

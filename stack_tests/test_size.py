@@ -21,4 +21,4 @@ class StackSizeTest(unittest.TestCase):
         self.stack_function = StackSizeFunctions(self.stack_list)
         
     def test_size_of_stack(self):
-        Logger.info(f'\nsize() =>>> {self.stack_function.size()}')
+        Logger.info(f'\n TestCase size() \n Output =>>> {self.stack_function.size()}')

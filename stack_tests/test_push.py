@@ -27,4 +27,4 @@ class StackPushTest(unittest.TestCase):
         self.stack_function = StackPushFunctions(self.stack_list, self.element)
         
     def test_push_from_stack(self):
-        Logger.info(f'\npush() =>>> {self.stack_function.push()}')
+        Logger.info(f'\n TestCase push() \n Output =>>> {self.stack_function.push()}')

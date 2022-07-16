@@ -1,6 +1,6 @@
 # Stack Unit Test
 
-No external installation is required to tun this code.
+No external installation is required to run this code.
 
 To run the code you need to run the file `unit_test.py` in the root folder. There are certain arguments that you can pass to send the arguments while running this file from CLI.
 
@@ -41,5 +41,21 @@ Two files `custom_exceptions.py` and `custom_logging.py` are being used as helpe
 Each file has a StackTest class inheriting `unittest.TestCase` for each test case and StackFunction class which is running all the required functionality in the task.
 
 Every StackFunction has the Interface Struct methods like `size(), pop(), peak(), empty(), push()`, and returns the output to be logged in the terminal.
+
+
+Example commands are:
+
+`python3 unit_test.py -s [1,2,3,4,5,6]`
+
+`python3 unit_test.py -s [1,2,3,4,5,6] -t pop`
+
+`python3 unit_test.py -s [1,2,3,4,5,6] -t size`
+
+`python3 unit_test.py -s [1,2,3,4,5,6] -t empty`
+
+`python3 unit_test.py -s [2,3] -t peek`
+
+`python3 unit_test.py -s [2,3] -t push -e 3`
+
 
 ### I have added the comments in the code for better understanding :).

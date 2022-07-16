@@ -28,4 +28,4 @@ class StackEmptyTest(unittest.TestCase):
         self.stack_function = StackEmptyFunctions(self.stack_list)
         
     def test_empty_from_stack(self):
-        Logger.info(f'\nempty() =>>> {self.stack_function.empty()}')
+        Logger.info(f'\n TestCase empty() \n Output =>>> {self.stack_function.empty()}')
